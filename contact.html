@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Signika+Negative:300,400,600,700|Amaranth:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<!---->
+<div class="header">
+	 <div class="container">
+	     <div class="top-header">
+			 
+			 <div class="top-menu">
+				<span class="menu"> </span>
+				<ul>
+					 <li><span class="pic1"></span><a href="index.html">主页</a></li>
+					 <li><span class="pic2"></span><a href="about.html">关于我</a></li>
+					 <li><span class="pic3"></span><a href="service.html">我的动漫</a></li>
+					 <li class="active"><span class="pic4"></span><a href="contact.html">联系我</a></li>
+						<div class="clearfix"></div>
+				 </ul>
+				 <!--script-nav-->
+				 <script>
+				 $("span.menu").click(function(){
+				 $(".top-menu ul").slideToggle("slow" , function(){
+				 });
+				 });
+				 </script>
+				 <!--script-nav-->
+			 </div>
+		  </div>
+	 </div>
+</div>
+<!---->
+<div class="contact-section-page">
+	   <div class="contact_top">					
+		   <div class="container">
+			  <div class="col-md-6 contact_left">
+			 		<h2>联系方式</h2>
+			 		<p>在下方填写您的姓名、电子邮箱、主要话题及想说的话</p>
+				  <form>
+					 <div class="form_details">
+						   <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+						   <input type="text" class="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
+							<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+							<textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+							<div class="clearfix"> </div>					   
+							<input name="submit" type="submit" value="Send message">
+					 </div>					 
+				  </form>
+			 </div>
+			 <div class="col-md-6 company-right">
+					<div class="contact-map">
+				    <img src="images/a.jpg" class="img-responsive" alt="" />
+				    </div>      
+				 <div class="company-right">
+					   <div class="company_ad">
+							<h3>联系信息</h3>
+							<span></span>
+			      			<address>
+								<p>email:<a href="mail-to: info@example.com">438971449@qq.com</a></p>
+								 <p>phone:11111111111</p>
+								<p>厦门市湖里区</p>
+																 	 	
+							</address>
+					  </div>
+				 </div>							
+			 </div>
+		  </div>
+	 </div>
+</div>
+<!---->
+
+<div class="fotter">
+	 <div class="container">
+		 <p class="copyright">438971449@qq.com</p>
+		 
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+</body>
+</html>
